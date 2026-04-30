@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/Navbar";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ModernBackground } from "@/components/ModernBackground";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "KAZE — AI & Software Engineer",
@@ -30,6 +31,7 @@ export default function RootLayout({
             {children}
           </main>
         </TooltipProvider>
+        <Analytics />
       </body>
     </html>
   );
