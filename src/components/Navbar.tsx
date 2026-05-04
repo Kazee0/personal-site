@@ -16,7 +16,7 @@ import GlassSurface from "@/components/GlassSurface";
 
 const navItems = [
   { name: "Home", href: "/" },
-  { name: "Career", href: "/career" },
+  { name: "Resume", href: "/resume" },
   { name: "Creatives", href: "/creatives" },
   { name: "About", href: "/about" },
 ];

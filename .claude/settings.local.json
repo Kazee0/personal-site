@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__playwright__browser_navigate",
+      "mcp__chrome-devtools-mcp__navigate_page",
+      "mcp__chrome-devtools-mcp__list_pages",
+      "Bash(curl *)",
+      "mcp__chrome-devtools-mcp__take_screenshot",
+      "Bash(npx tsc *)",
+      "Bash(python3 -c ' *)",
+      "Bash(powershell -command '\\(Add-Type -AssemblyName System.Drawing; $img = [System.Drawing.Image]::FromFile\\('\\\\''__CMDSUB_OUTPUT__/__TRACKED_VAR__'\\\\''\\); Write-Host '\\\\''__TRACKED_VAR__: '\\\\'' $img.Width '\\\\''x'\\\\'' $img.Height\\)')"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "shadcn"
+  ]
+}
